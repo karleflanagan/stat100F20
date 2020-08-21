@@ -8,8 +8,9 @@ title: Exam-Schedule
 
 
 
-<h1>{{ site.short-title}} Exam Schedule {{ site.semester }}</h1>
-<h4><b style="color:red;">Important Info:</b> There will be three midterm exams and a comprehensive final exam. There will be NO makeup exams and NO formula sheets may be used on any exam. If you miss an exam and have written proof of a valid reason, then we will substitute your final exam score for the missed exam.<h4>
+<h1>{{ site.short-title}} {{ site.semester }} Exam Schedule</h1>
+<h4><b style="color:red;">Important Info:</b> There will be three midterm exams and a comprehensive final exam. All of these will be taken online on Compass 2g individually.  You can use any resources except other people.  Please be honest and make sure that your work is your work only!  There will be NO makeup exams. If you miss an exam and have written proof of a valid reason, then we will substitute your final exam score for the missed exam.
+<h4>
 
 {% for exam in site.data.info.exams %}
 <h2>{{ site.short-title }} {{ exam.name }}</h2>

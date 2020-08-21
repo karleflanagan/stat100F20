@@ -11,25 +11,16 @@ layout: default
     <div class="container py-4">
       <div class="col-12 text-center">
 
-        <p class="lead text-left">{{ site.data.staff.about }}</p>
+      <div class="text-center" style="margin-bottom: 3em;">
+        <h2 class="display-5 font-weight-light">Course Staff</h2>
       </div>
 
-      <div class="row mb-4">
-        <div class="col-lg-5">
-          <h2 class="display-5 font-weight-light">Instructors</h2>
-        </div>
-      </div>
-      <div class="row text-center">
-        {% include staff_cards.html role='prof' %}
+      <p class="lead text-left" style="font-size: 1.15em;">{{ site.data.staff.about }}</p>
       </div>
 
-      <div class="row mb-4">
-        <div class="col">
-          <h2 class="display-5 font-weight-light">Student Educators</h2>
-        </div>
-      </div>
       <div class="row text-center">
-        {% include staff_cards.html role='se' %}
+        {% include staff_cards.html role='Lead Instructor' %}
+        {% include staff_cards.html role='Course Assistant' %}
       </div>
 
     </div>

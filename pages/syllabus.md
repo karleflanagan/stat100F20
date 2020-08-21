@@ -38,10 +38,9 @@ title: syllabus
 ## Course Materials
 * **Required Workbook: {{ site.data.info.textbook.name }} {{ site.data.info.textbook.edition }} by {{ site.data.info.textbook.authors}}.**
     1. Available at the Illini Union Bookstore for {{ site.data.info.textbook.price }}.
-    2. We will fill out this notebook together in class for extra credit.
-    3. Only the {{ site.data.info.textbook.edition }} will be accepted for extra credit (no previous versions).
-* **Required Calculator:** Any non-programmable calculator is accepted (no phones, graphing calculators, etc.). I recommend <b><a href="{{ site.data.info.calculator }}" target="\_blank">this one!</a></b>
-* **Optional iClicker for in-person section:** Each day in class, a few iClicker questions will be asked and you can get extra credit for them.  Online class - do not buy an iClicker, you'll get extra credit points in other ways (see bonus points).
+    2. This notebook is the only thing that's required to purchase for Stat 100!
+    3. You will use this notebook each week when you watch the videos!
+* **Required Calculator:** Any calculator is accepted. I recommend <b><a href="{{ site.data.info.calculator }}" target="\_blank">this one!</a></b>
 
 ## Class Times
 <ul>
@@ -53,8 +52,8 @@ title: syllabus
 </ul>
 
 ## Office Hours
-* <b>{{ site.short-title }} Office Hours in {{ site.data.info.office-hours.room }} <a href="{{ site.data.info.office-hours.map }}" target="\_blank">{{ site.data.info.office-hours.building }}</a>:</b> {{ site.data.info.office-hours.days }} from {{ site.data.info.office-hours.times }}
-* This room is a computer lab where you can come to ask questions, get help from the instructors and student educators, or do your homework. Feel free to stop by anytime If you are unavailable during these times and want to meet, send us an email and we will set up a time!
+* <b>{{ site.short-title }} Office Hours will be offered each week {{ site.data.info.office-hours.days }} from {{ site.data.info.office-hours.times }} via <a href="{{ site.data.info.office-hours.link }}" target="\_blank">{{ site.data.info.office-hours.location }}</a>.</b>
+* Feel free to stop by anytime for help. If you are unavailable during these times and want to meet, send us an email at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a> and we will set up a time!
 
 ## Technical Issues
 * If you experience a glitch in Lon Capa/Compass, first, try logging out and logging back in. If this doesn't work, send an email to our tech doc, {{ site.data.info.technical.name }} <b><a href="mailto:{{ site.data.info.technical.email }}">{{ site.data.info.technical.email }}</a></b> describing the problem. Please make sure to include a screenshot of the error in your e-mail. You can also stop by office hours and get help in person!
@@ -81,31 +80,13 @@ title: syllabus
 
 ## Bonus Work
 **Bonus Points — You may earn between 0 and 100 Bonus Points.**
-* **Everyone may earn between 0 and 100 Bonus Points.** Every bonus point earned helps your overall grade, but even if you do no bonus work, you can still get 100% for the course. In other words, bonus points can only help you. Bonus points are extra credit.
-* **{% assign in_person = site.data.info.sections | where: 'type', 'In Person' %}{% if in_person.size > 1 %}IN PERSON CLASSES ({% else %}IN PERSON CLASS ({% endif %}{% if in_person.size == 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif in_person.size > 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }}{% elsif class == in_person.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in in_person %}{{ class.name }}{% endfor %}{% endif %}) Bonus Points (100 total bonus points)**
-  1. **Pre-Lecture bonus points**--20 bonus points
-  2. **iClickers**--20 bonus points
-  3. **Lon Capa Surveys**--20 bonus points
-  4. **Completed Notebook**--40 bonus points
-* **{% assign online = site.data.info.sections | where: 'type', 'Online' %}{% if online.size > 1 %}ONLINE CLASSES ({% else %}ONLINE CLASS ({% endif %}{% if online.size == 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif online.size > 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }}{% elsif class == online.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in online %}{{ class.name }}{% endfor %}{% endif %}) Bonus Points (100 total bonus points)**
-  1. **Pre-Lecture bonus points**--40 bonus points
-  2. **Lon Capa Surveys**--20 bonus points
-  3. **Completed Notebook**--40 bonus points
-* <b><u>Descriptions</u></b>
-  1. **Pre-Lecture bonus points**<br>
-  Each class there will be a short pre-lecture videos posted on Lon Capa followed by a few questions. The pre-lectures are designed to give you a preview of the basic concepts you'll see in the actual lectures.
-  2. **Lon Capa Surveys**<br>
-  There will be 5 surveys due on the first Friday of each month (see the course calendar). Each survey is worth 4 bonus points. The surveys are all anonymous. Lon Capa just records whether or not you submitted a survey, not who submitted which answer. You must answer every question on the survey to get the 4 points.
-  3. **Completed Notebook**<br>
-  We will look over your notebook at the final. You'll get full credit if you have all the pages from lecture filled in. You may skip ALL the practice exams and summary pages. If you're missing more than 3 required pages don't bother to turn in the notebook because you will receive negative bonus points. You may pick up your notebook at the end of your exam to keep forever.
-  4. **iClickers (in person class only!)**<br>
-  iClicker questions will be asked each day in class. You will get 1 bonus point per class period if you answer all of the iClicker questions. You can skip 2 days and still get full iClicker points.
-  <br><br> <b><u>* Bonus points can only help you.</u> You can still get 100% in this class without doing any bonus work.</b>
-* **Bonus points are figured into your grade as follows:**
-<img src="{{ site.baseurl }}/assets/img/BonusGrade.png" style="width:100%;">
-  * Suppose at the end of the semester you have a 75% average and you did 100% of the bonus work.
-<img src="{{ site.baseurl }}/assets/img/BonusExample.png" style="width:100%;">
-  * So your grade would be raised from a **75% (C) to an 80% (B-)**.
+* **Everyone may earn between 0 and 50 Bonus Points.** Every bonus point earned helps your overall grade, but even if you do no bonus work, you can still get 100% for the course. In other words, bonus points can only help you. Bonus points are extra credit. Here’s how you can get them:
+  1. **Pre-Lecture bonus points** (34.5 bonus points)<br>
+  Each class there will be a short pre-lecture video posted on Lon Capa followed by a few questions. The pre-lectures are designed to give you a preview of the basic concepts you’ll see in the actual lectures. There are 23 prelectures and each is worth 1.5 bonus points.
+  2. **Lon Capa Surveys** (15 bonus points)<br>
+  There will be 5 surveys due on the first Friday of each month (see the course calendar). Each survey is worth 3 bonus points. The surveys are all anonymous. Lon Capa just records whether or not you submitted a survey, not who submitted which answer. You must answer every question on the survey to get the 4 points.
+  3. <b>The Pre-Lecture and Survey bonus points add to 49.5!</b>  Everyone will get 0.5 bonus points automatically for free <a href="{{ site.data.info.rickroll }}">&#128521;</a>
+  4. <b>How do these bonus points get calculated into your grade?</b>  At the end of the semester, take your total bonus points and divide them by 10.  This will be how many percentage points get added to your grade!  For example, if you have all 50 bonus points, you’d take 50 and divide it by 10 to get 5.  So if you have an 80% (B-) in the class, the bonus would bring you up to an 85% (B).
 
 ## Course Outline
 * **Study Design**: observational studies vs. randomized experiments, why randomized controls are key, confounders in observational studies, Simpson's paradox, intent to treat analysis, etc.
@@ -128,7 +109,7 @@ We're using Compass 2g to post announcements and display grades.<br>
 
 ## Academic Integrity
 * If you cheat on an exam in this class you're very likely to get caught and the consequences will be <b>SEVERE</b>. See the <b><a href="https://studentcode.illinois.edu/" target="\_blank">University Student Code of Conduct</a></b>.
-* The Stat 100 Team has a group of highly trained students who know every trick in the book for catching cheaters. We hand grade each of the exams and have multiple versions of all exams. They may look identical at first glance, but they are not. Bottom line is, please don't cheat. It's not worth risking your entire college career and you will get caught. If you are caught, you will get a 0 on the exam and be reported to the university.
+* We have multiple versions of all exams that may look identical at first glance, but are not. Bottom line is, please don’t cheat. It’s not worth risking your entire college career and you will get caught. If you are caught, you will get a 0 on the exam and be reported to the university.
 
-## Accommodations
-* I am happy to offer accommodations for disabilities verified through DRES (<b><a href="http://www.disability.illinois.edu/" target="\_blank">http://www.disability.illinois.edu/</a></b>). Please email me a copy of your letter during week 1. Students taking their exams at DRES can take them anytime on Wed. or Thurs. during exam weeks. Students taking their final exam at DRES can take them any time during finals week.
+## DRES Accommodations
+* I am happy to offer accommodations for disabilities verified through DRES (<b><a href="http://www.disability.illinois.edu/" target="\_blank">http://www.disability.illinois.edu/</a></b>). Please email me a copy of your letter during week 1. Since all of our exams will be online, I will provide the extra time accommodation for any student who needs it and sends me their DRES letter.  If you have any other questions or need any other accommodations, don’t hesitate to reach out <a href="{{ site.data.info.rickroll }}">&#128522;</a>

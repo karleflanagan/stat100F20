@@ -19,7 +19,7 @@ layout: default
     </div>
     <div class="row text-center">
     <!-- loops through section information -->
-      <div class="col-md-6">
+      <!-- <div class="col-md-6">
         <div class="feature">
           <i class="{{ site.data.info.in-person-icon }}" data-fa-transform="shrinks-5 up-4"></i>
           <h3>In Person Section: {% assign in_person = site.data.info.sections | where: 'type', 'In Person' %}{% if in_person.size == 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif in_person.size > 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }}{% elsif class == in_person.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in in_person %}{{ class.name }}{% endfor %}{% endif %}</h3>
@@ -28,10 +28,10 @@ layout: default
           {{ class.times }} {{ class.location }}<br>
           {% endfor %}</p>
         </div>
-      </div>
-      <div class="col-md-6">
+      </div> -->
+      <div class="col-md-12">
         <div class="feature">
-          <i class="{{ site.data.info.online-icon }}" data-fa-transform="shrinks-5 up-4"></i>
+          <a href="{{ site.data.info.rickroll }}"><i class="{{ site.data.info.online-icon }}" data-fa-transform="shrinks-5 up-4"></i></a>
           <h3>Online Section: {% assign online = site.data.info.sections | where: 'type', 'Online' %}{% if online.size == 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif online.size > 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }}{% elsif class == online.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in online %}{{ class.name }}{% endfor %}{% endif %}</h3>
           <p>{% for class in online %}
           <b>{{ class.name }} Instructor: {{ class.instructor }}</b><br>
@@ -55,7 +55,7 @@ layout: default
       </div>
       <!-- Loops through links -->
       {% for link in site.data.info.links1 %}
-        <div class="col-md-6">
+        <div class="col-md-4">
           <h3>{{ link.title }}</h3>
           <a class="btn btn-secondary btn-md" href="{{ link.url }}" target="\_blank">{{ link.subtitle }}</a>
         </div>
@@ -112,7 +112,7 @@ Thanks for being an integral part of STAT 100 team!</cite>
     <div class="row text-center">
     <!-- loops through goals -->
     {% for goal in site.data.info.goals %}
-      <div class="col-md-4">
+      <div class="col-md-6">
         <h4>{{ goal.title }}</h4>
         <div class="sub-heading-underline"></div>
         <p>{{ goal.body }}</p>
