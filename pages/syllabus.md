@@ -53,7 +53,7 @@ title: syllabus
 
 ## Office Hours
 * <b>{{ site.short-title }} Office Hours will be offered each week {{ site.data.info.office-hours.days }} from {{ site.data.info.office-hours.times }} via <a href="{{ site.data.info.office-hours.link }}" target="\_blank">{{ site.data.info.office-hours.location }}</a>.</b>
-* Feel free to stop by anytime for help. If you are unavailable during these times and want to meet, send us an email at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a> and we will set up a time!
+* Feel free to stop by anytime for help. If you are unavailable during these times and want to meet, send us an email at <a href="mailto:{{ site.data.info.main-email }}">{{ site.data.info.main-email }}</a> and we will set up a time!
 
 ## Technical Issues
 * If you experience a glitch in Lon Capa/Compass, first, try logging out and logging back in. If this doesn't work, send an email to our tech doc, {{ site.data.info.technical.name }} <b><a href="mailto:{{ site.data.info.technical.email }}">{{ site.data.info.technical.email }}</a></b> describing the problem. Please make sure to include a screenshot of the error in your e-mail. You can also stop by office hours and get help in person!
@@ -86,7 +86,7 @@ title: syllabus
   2. **Lon Capa Surveys** (15 bonus points)<br>
   There will be 5 surveys due on the first Friday of each month (see the course calendar). Each survey is worth 3 bonus points. The surveys are all anonymous. Lon Capa just records whether or not you submitted a survey, not who submitted which answer. You must answer every question on the survey to get the 4 points.
   3. <b>The Pre-Lecture and Survey bonus points add to 49.5!</b>  Everyone will get 0.5 bonus points automatically for free <a href="{{ site.data.info.rickroll }}">&#128521;</a>
-  4. <b>How do these bonus points get calculated into your grade?</b>  At the end of the semester, take your total bonus points and divide them by 10.  This will be how many percentage points get added to your grade!  For example, if you have all 50 bonus points, you’d take 50 and divide it by 10 to get 5.  So if you have an 80% (B-) in the class, the bonus would bring you up to an 85% (B).
+* <b>How do these bonus points get calculated into your grade?</b>  At the end of the semester, take your total bonus points and divide them by 10.  This will be how many percentage points get added to your grade!  For example, if you have all 50 bonus points, you’d take 50 and divide it by 10 to get 5.  So if you have an 80% (B-) in the class, the bonus would bring you up to an 85% (B).
 
 ## Course Outline
 * **Study Design**: observational studies vs. randomized experiments, why randomized controls are key, confounders in observational studies, Simpson's paradox, intent to treat analysis, etc.

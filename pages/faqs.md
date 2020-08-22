@@ -27,7 +27,7 @@ title: FAQs
 </p>
 <div class="collapse" id="faq2">
   <div class="card card-body">
-    <p>A: <i> Email Karle at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a> and we will get you caught up. Be sure to include your name and netID.
+    <p>A: <i> Email Karle at <a href="mailto:{{ site.data.info.main-email }}">{{ site.data.info.main-email }}</a> and we will get you caught up. Be sure to include your name and netID.
 </i></p>
   </div>
 </div>

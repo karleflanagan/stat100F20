@@ -10,15 +10,20 @@ announcements: >-
     <li>Welcome to Stat 100! <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128515;</a> Here are some announcements for the first week of class!</li>
     <ul>
       <li>We have only one section this semester: Stat 100 Online (ONL).</li>
+      <li>There will be no synchronous meetings or class times. Instead, students will watch lecture videos posted on Compass 2g each week.</li>
+      <li>If you have any questions, email me at <a href="mailto:stat100@mx.uillinois.edu">stat100@mx.uillinois.edu</a></li>
     </ul>
   </ul>
   </p>
 
 # instructors and sections variables dictate content for the course sections info section of the home page, instructor contact information in syllabus, class times info in syllabus, bonus work info in syllabus, and instructor contact links in footer.
 # Note: the type attribute of the section variables must either be "In Person" or "Online" (These attribute values are case sensitive).
+
+main-email: "stat100@mx.uillinois.edu"
+
 instructors:
 - name: "Karle Flanagan"
-  email: "stat100@illinois.edu"
+  email: "stat100@mx.uillinois.edu"
 
 sections:
 - name: "ONL"
