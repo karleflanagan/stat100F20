@@ -79,7 +79,7 @@ title: syllabus
 {% include grade.html %}
 
 ## Bonus Work
-**Bonus Points — You may earn between 0 and 100 Bonus Points.**
+**Bonus Points — You may earn between 0 and 50 Bonus Points.**
 * **Everyone may earn between 0 and 50 Bonus Points.** Every bonus point earned helps your overall grade, but even if you do no bonus work, you can still get 100% for the course. In other words, bonus points can only help you. Bonus points are extra credit. Here’s how you can get them:
   1. **Pre-Lecture bonus points** (34.5 bonus points)<br>
   Each class there will be a short pre-lecture video posted on Lon Capa followed by a few questions. The pre-lectures are designed to give you a preview of the basic concepts you’ll see in the actual lectures. There are 23 prelectures and each is worth 1.5 bonus points.
