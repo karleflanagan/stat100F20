@@ -67,7 +67,7 @@ exams:
   time: "6-7:30pm"
   content: "Chapter 1-Chapter 6 Part 1"
   locations: ""
-  show-exams: FF
+  show-exams: T
   conflict: >-
     <span style = "font-weight:normal"><i>same day from 4:30-6:00pm</i><br><ul><li>Location for <b>All IN PERSON</b> Students (Sections L1 & L2):
     <a href="http://ada.fs.illinois.edu/0034.html" target="_blank">100 Material Science and Engineering Building</a><br></li>
@@ -106,8 +106,8 @@ exam-years:
   full2: "Spring 2019"
   third: "F18"
   full3: "Fall 2018"
-  fourth: "F16" # notebook exam
-  full4: "Fall 2016"
+  fourth: "S20" # notebook exam
+  full4: "Spring 2020"
 
 final-years:
   first: "S14" # Most recent semester

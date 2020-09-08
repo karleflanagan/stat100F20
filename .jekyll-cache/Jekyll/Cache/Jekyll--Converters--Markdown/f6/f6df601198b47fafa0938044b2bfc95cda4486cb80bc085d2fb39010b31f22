@@ -1,4 +1,4 @@
-I"z,<div class="calendar-head">
+I"�,<div class="calendar-head">
   <h1 style="text-align:center;">
     Calendar Fall 2020: STAT 100 Online
   </h1>
@@ -81,11 +81,11 @@ Color Key: Red-Required Work, Blue-Optional Work
   </tr>
   <tr>
     <td><b>Week 3: Chapters 3-5</b>(Histograms, Avg, Median, SD, &amp; Normal Curve)</td>
-    <td><p class="prel">Chapter 3 Prelecture Due</p><p>Labor Day <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">⛏️</a></p></td>
+    <td><p>Labor Day <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">⛏️</a></p></td>
+    <td><p class="prel">Chapter 3 Prelecture Due</p></td>
     <td><p class="hw">HW Assignment 3 Due</p></td>
     <td><p class="prel">Chapter 4 Prelecture Due</p></td>
-    <td><p class="hw">HW Assignment 4 Due</p></td>
-    <td><p class="prel">Chapter 5 Prelecture Due</p><p class="surv">Bonus Survey 2 Due</p></td>
+    <td><p class="hw">HW Assignment 4 Due</p><p class="surv">Bonus Survey 2 Due</p></td>
   </tr>
   <tr>
     <td style="line-height:1px;margin:0;"></td>
@@ -97,7 +97,7 @@ Color Key: Red-Required Work, Blue-Optional Work
   </tr>
   <tr>
     <td><b>Week 4: Exam Week</b></td>
-    <td><b><p class="conf">Exam 1 Conflict Sign-Up Due</p></b></td>
+    <td><b><p class="conf">Exam 1 Conflict Sign-Up Due</p></b><p class="prel">Chapter 5 Prelecture Due</p></td>
     <td><p class="hw">HW Assignment 5 Due</p></td>
     <td><b><p class="exam">Exam 1 at 6pm</p></b></td>
     <td></td>
@@ -331,7 +331,7 @@ Color Key: Red-Required Work, Blue-Optional Work
     <td></td>
     <td><p class="hw">HW Assignment 21 Due</p><p class="prel">Chapter 23 Part 2 Prelecture Due</p></td>
     <td><p>Last Day of Classes!</p></td>
-    <td><p class="hw">HW Assignment 22 Due</p><p class="surv">Bonus Survey 5 Due (11:59pm)</p><p><b>Reading Day</b><br />No Class &#128522;</p></td>
+    <td><p class="hw">HW Assignment 22 Due</p><p class="surv">Bonus Survey 5 Due (11:59pm)</p><p><b>Reading Day</b><br />No Class <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128522;</a></p></td>
     <td></td>
   </tr>
   <tr>

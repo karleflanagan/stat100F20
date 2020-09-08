@@ -9,10 +9,16 @@
       <th>Answer Keys</th>
     </tr>
     <tr>
-      <td>Answer Key to Practice Exam in Notebook ----&gt;</td>
       <td>
         {% if exam.show-exams != "FF" %}
-        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.fourth }}{{ exam.base-name }}Key.pdf" target="\_blank">{{ site.data.info.exam-years.full4 }} {{ exam.name }} Key</a>
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.fourth }}{{ exam.base-name }}.pdf" target="\_blank">Notebook Practice Exam: {{ site.data.info.exam-years.full4 }} {{ exam.name }}</a>
+        {% else %}
+        <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full4 }} {{ exam.name }}</span>
+        {% endif %}
+      </td>
+      <td>
+        {% if exam.show-exams != "FF" %}
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.fourth }}{{ exam.base-name }}Key.pdf" target="\_blank">Notebook Practice Exam Key: {{ site.data.info.exam-years.full4 }} {{ exam.name }} Key</a>
         {% else %}
         <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full4 }} {{ exam.name }} Key</span>
         {% endif %}
