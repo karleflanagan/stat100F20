@@ -7,11 +7,11 @@ announcements: >-
   <div class="sub-heading-underline" style="margin:0 auto 10px auto; width: 24%;"></div>
   <p style="text-align:left;">
   <ul>
-    <li>Welcome to Stat 100! <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128515;</a> Here are some announcements for the first week of class!</li>
+    <li>Welcome to Stat 100! <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128515;</a> Here are some announcements for the third week of class!</li>
     <ul>
-      <li>We have only one section this semester: Stat 100 Online (ONL).</li>
-      <li>There will be no synchronous meetings or class times. Instead, students will watch lecture videos posted on Compass 2g each week.</li>
-      <li>If you have any questions, email me at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a></li>
+      <li>Remember to watch the lecture videos posted each week on Compass.</li>
+      <li>The Stat 100 Notebooks are ready to be ordered from the Illini Union Bookstore. Remember to get yours ASAP <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128515;</a></li>
+      <li>If you have any questions, email Karle at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a> or stop by Zoom Office Hours Mon-Fri from 2-4pm.</li>
     </ul>
   </ul>
   </p>
@@ -67,7 +67,7 @@ exams:
   time: "6-7:30pm"
   content: "Chapter 1-Chapter 6 Part 1"
   locations: ""
-  show-exams: FF
+  show-exams: T
   conflict: >-
     <span style = "font-weight:normal"><i>same day from 4:30-6:00pm</i><br><ul><li>Location for <b>All IN PERSON</b> Students (Sections L1 & L2):
     <a href="http://ada.fs.illinois.edu/0034.html" target="_blank">100 Material Science and Engineering Building</a><br></li>
@@ -106,8 +106,8 @@ exam-years:
   full2: "Spring 2019"
   third: "F18"
   full3: "Fall 2018"
-  fourth: "F16" # notebook exam
-  full4: "Fall 2016"
+  fourth: "S20" # notebook exam
+  full4: "Spring 2020"
 
 final-years:
   first: "S14" # Most recent semester
@@ -136,7 +136,7 @@ links1:
 
 - title: "Zoom"
   subtitle: "Office Hours"
-  url: ""
+  url: "https://illinois.zoom.us/j/93223625206?pwd=MHhPbTNvelV6ZG1YVUJMVVFHdTU2UT09"
 
 # Data program links
 links2:
