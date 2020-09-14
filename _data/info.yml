@@ -7,11 +7,11 @@ announcements: >-
   <div class="sub-heading-underline" style="margin:0 auto 10px auto; width: 24%;"></div>
   <p style="text-align:left;">
   <ul>
-    <li>Welcome to Stat 100! <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128515;</a> Here are some announcements for the third week of class!</li>
+    <li>Welcome to Stat 100! <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128515;</a> It's exam week this week!</li>
     <ul>
-      <li>Remember to watch the lecture videos posted each week on Compass.</li>
-      <li>The Stat 100 Notebooks are ready to be ordered from the Illini Union Bookstore. Remember to get yours ASAP <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128515;</a></li>
-      <li>If you have any questions, email Karle at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a> or stop by Zoom Office Hours Mon-Fri from 2-4pm.</li>
+      <li>Exam 1 is Wednesday Sept. 16th from 6-7:30pm CST on Compass 2g. For more details, see the "Stat 100 Exam 1 Details" email posted on Compass.</li>
+      <li>Make sure you have your Stat 100 Notebook and make sure you've watched all of the lecture videos posted on Compass by Wednesday for the exam!</li>
+      <li>If you have any questions, email Karle at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a> or stop by Zoom Office Hours Monday and Tuesday this week from 2-5pm and 8-10pm.</li>
     </ul>
   </ul>
   </p>
@@ -43,7 +43,7 @@ office-hours:
   location: "Zoom"
   link: ""
   days: "Monday-Friday"
-  times: "2pm-4pm"
+  times: "2pm-5pm, and Mon-Tues from 8-10pm"
 
 # Course Materials
 textbook:
