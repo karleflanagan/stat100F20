@@ -1,4 +1,4 @@
-I"R#<!-- landing photo page -->
+I"e#<!-- landing photo page -->
 <!-- Start of Landing Page -->
 <div class="landing">
   <div class="home-wrap">
@@ -18,8 +18,7 @@
       <h2>Weekly Announcements</h2> <div class="sub-heading-underline" style="margin:0 auto 10px auto; width: 24%;"></div> <p style="text-align:left;"> <ul>
   <li>Welcome to Stat 100! <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128515;</a> It's exam week this week!</li>
   <ul>
-    <li>Exam 1 is Wednesday Sept. 16th from 6-7:30pm CST on Compass 2g. For more details, see the "Stat 100 Exam 1 Details" email posted on Compass.</li>
-    <li>Make sure you have your Stat 100 Notebook and make sure you've watched all of the lecture videos posted on Compass by Wednesday for the exam!</li>
+    <li>We now have a! Feel free to ask questions there if you can’t make it to office hours.</li>
     <li>If you have any questions, email Karle at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a> or stop by Zoom Office Hours Monday and Tuesday this week from 2-5pm and 8-10pm.</li>
   </ul>
 </ul> </p>
@@ -71,19 +70,24 @@
       </div>
       <!-- Loops through links -->
       
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3>Lon-Capa</h3>
           <a class="btn btn-secondary btn-md" href="http://www.lon-capa.illinois.edu/" target="\_blank">Check Assignments</a>
         </div>
       
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3>Compass2g</h3>
           <a class="btn btn-secondary btn-md" href="https://compass2g.illinois.edu/" target="\_blank">Check Grades</a>
         </div>
       
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3>Zoom</h3>
           <a class="btn btn-secondary btn-md" href="https://illinois.zoom.us/j/93223625206?pwd=MHhPbTNvelV6ZG1YVUJMVVFHdTU2UT09" target="\_blank">Office Hours</a>
+        </div>
+      
+        <div class="col-md-3">
+          <h3>Piazza</h3>
+          <a class="btn btn-secondary btn-md" href="https://www.piazza.com/illinois/fall2020/stat100onl/home" target="\_blank">Discussion Board</a>
         </div>
       
     </div>
