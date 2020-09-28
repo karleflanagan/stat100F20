@@ -55,7 +55,7 @@ layout: default
       </div>
       <!-- Loops through links -->
       {% for link in site.data.info.links1 %}
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3>{{ link.title }}</h3>
           <a class="btn btn-secondary btn-md" href="{{ link.url }}" target="\_blank">{{ link.subtitle }}</a>
         </div>

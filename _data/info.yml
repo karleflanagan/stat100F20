@@ -9,12 +9,13 @@ announcements: >-
   <ul>
     <li>Welcome to Stat 100! <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128515;</a> It's exam week this week!</li>
     <ul>
-      <li>Exam 1 is Wednesday Sept. 16th from 6-7:30pm CST on Compass 2g. For more details, see the "Stat 100 Exam 1 Details" email posted on Compass.</li>
-      <li>Make sure you have your Stat 100 Notebook and make sure you've watched all of the lecture videos posted on Compass by Wednesday for the exam!</li>
+      <li>We now have a <a href="https://www.piazza.com/illinois/fall2020/stat100onl/home
+">course piazza page</a>! Feel free to ask questions there if you can’t make it to office hours.</li>
       <li>If you have any questions, email Karle at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a> or stop by Zoom Office Hours Monday and Tuesday this week from 2-5pm and 8-10pm.</li>
     </ul>
   </ul>
   </p>
+
 
 # instructors and sections variables dictate content for the course sections info section of the home page, instructor contact information in syllabus, class times info in syllabus, bonus work info in syllabus, and instructor contact links in footer.
 # Note: the type attribute of the section variables must either be "In Person" or "Online" (These attribute values are case sensitive).
@@ -137,6 +138,10 @@ links1:
 - title: "Zoom"
   subtitle: "Office Hours"
   url: "https://illinois.zoom.us/j/93223625206?pwd=MHhPbTNvelV6ZG1YVUJMVVFHdTU2UT09"
+
+- title: "Piazza"
+  subtitle: "Discussion Board"
+  url: "https://www.piazza.com/illinois/fall2020/stat100onl/home"
 
 # Data program links
 links2:
