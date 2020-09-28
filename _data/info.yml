@@ -127,11 +127,11 @@ grade-calc: T
 # Course links
 links1:
 - title: "Lon-Capa"
-  subtitle: "Check Assignments"
+  subtitle: "Homework & Bonus work"
   url: "http://www.lon-capa.illinois.edu/"
 
 - title: "Compass2g"
-  subtitle: "Check Grades"
+  subtitle: "Lecture Videos & Grades"
   url: "https://compass2g.illinois.edu/"
 
 - title: "Zoom"
