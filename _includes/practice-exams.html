@@ -11,64 +11,64 @@
     <tr>
       <td>
         {% if exam.show-exams != "FF" %}
-        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.fourth }}{{ exam.base-name }}.pdf" target="\_blank">Notebook Practice Exam: {{ site.data.info.exam-years.full4 }} {{ exam.name }}</a>
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ exam.exam-years.fourth }}{{ exam.base-name }}.pdf" target="\_blank">Notebook Practice Exam: {{ exam.exam-years.full4 }} {{ exam.name }}</a>
         {% else %}
-        <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full4 }} {{ exam.name }}</span>
+        <span style="color: #a9a9a9;">{{ exam.exam-years.full4 }} {{ exam.name }}</span>
         {% endif %}
       </td>
       <td>
         {% if exam.show-exams != "FF" %}
-        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.fourth }}{{ exam.base-name }}Key.pdf" target="\_blank">Notebook Practice Exam Key: {{ site.data.info.exam-years.full4 }} {{ exam.name }} Key</a>
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ exam.exam-years.fourth }}{{ exam.base-name }}Key.pdf" target="\_blank">Notebook Practice Exam Key: {{ exam.exam-years.full4 }} {{ exam.name }} Key</a>
         {% else %}
-        <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full4 }} {{ exam.name }} Key</span>
+        <span style="color: #a9a9a9;">{{ exam.exam-years.full4 }} {{ exam.name }} Key</span>
         {% endif %}
       </td>
     </tr>
     <tr>
       <td>
         {% if exam.show-exams == "T" %}
-        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.first }}{{ exam.base-name }}.pdf" target="\_blank">{{ site.data.info.exam-years.full1 }} {{ exam.name }}</a>
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ exam.exam-years.first }}{{ exam.base-name }}.pdf" target="\_blank">{{ exam.exam-years.full1 }} {{ exam.name }}</a>
         {% else %}
-        <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full1 }} {{ exam.name }}</span>
+        <span style="color: #a9a9a9;">{{ exam.exam-years.full1 }} {{ exam.name }}</span>
         {% endif %}
       </td>
       <td>
         {% if exam.show-exams == "T" %}
-        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.first }}{{ exam.base-name }}Key.pdf" target="\_blank">{{ site.data.info.exam-years.full1 }} {{ exam.name }} Key</a>
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ exam.exam-years.first }}{{ exam.base-name }}Key.pdf" target="\_blank">{{ exam.exam-years.full1 }} {{ exam.name }} Key</a>
         {% else %}
-        <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full1 }} {{ exam.name }} Key</span>
-        {% endif %}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        {% if exam.show-exams == "T" %}
-        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.second }}{{ exam.base-name }}.pdf" target="\_blank">{{ site.data.info.exam-years.full2 }} {{ exam.name }}</a>
-        {% else %}
-        <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full2 }} {{ exam.name }}</span>
-        {% endif %}
-      </td>
-      <td>
-        {% if exam.show-exams == "T" %}
-        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.second }}{{ exam.base-name }}Key.pdf" target="\_blank">{{ site.data.info.exam-years.full2 }} {{ exam.name }} Key</a>
-        {% else %}
-        <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full2 }} {{ exam.name }} Key</span>
+        <span style="color: #a9a9a9;">{{ exam.exam-years.full1 }} {{ exam.name }} Key</span>
         {% endif %}
       </td>
     </tr>
     <tr>
       <td>
         {% if exam.show-exams == "T" %}
-        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.third }}{{ exam.base-name }}.pdf" target="\_blank">{{ site.data.info.exam-years.full3 }} {{ exam.name }}</a>
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ exam.exam-years.second }}{{ exam.base-name }}.pdf" target="\_blank">{{ exam.exam-years.full2 }} {{ exam.name }}</a>
         {% else %}
-        <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full3 }} {{ exam.name }}</span>
+        <span style="color: #a9a9a9;">{{ exam.exam-years.full2 }} {{ exam.name }}</span>
         {% endif %}
       </td>
       <td>
         {% if exam.show-exams == "T" %}
-        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ site.data.info.exam-years.third }}{{ exam.base-name }}Key.pdf" target="\_blank">{{ site.data.info.exam-years.full3 }} {{ exam.name }} Key</a>
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ exam.exam-years.second }}{{ exam.base-name }}Key.pdf" target="\_blank">{{ exam.exam-years.full2 }} {{ exam.name }} Key</a>
         {% else %}
-        <span style="color: #a9a9a9;">{{ site.data.info.exam-years.full3 }} {{ exam.name }} Key</span>
+        <span style="color: #a9a9a9;">{{ exam.exam-years.full2 }} {{ exam.name }} Key</span>
+        {% endif %}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        {% if exam.show-exams == "T" %}
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ exam.exam-years.third }}{{ exam.base-name }}.pdf" target="\_blank">{{ exam.exam-years.full3 }} {{ exam.name }}</a>
+        {% else %}
+        <span style="color: #a9a9a9;">{{ exam.exam-years.full3 }} {{ exam.name }}</span>
+        {% endif %}
+      </td>
+      <td>
+        {% if exam.show-exams == "T" %}
+        <a href="{{ site.baseurl }}/assets/docs/exams/{{ exam.base-name }}/{{ exam.exam-years.third }}{{ exam.base-name }}Key.pdf" target="\_blank">{{ exam.exam-years.full3 }} {{ exam.name }} Key</a>
+        {% else %}
+        <span style="color: #a9a9a9;">{{ exam.exam-years.full3 }} {{ exam.name }} Key</span>
         {% endif %}
       </td>
     </tr>

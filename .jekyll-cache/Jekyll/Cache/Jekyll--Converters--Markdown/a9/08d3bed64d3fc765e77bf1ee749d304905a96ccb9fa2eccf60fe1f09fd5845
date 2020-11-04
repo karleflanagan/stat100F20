@@ -1,4 +1,4 @@
-I"´,<div class="calendar-head">
+I"z,<div class="calendar-head">
   <h1 style="text-align:center;">
     Calendar Fall 2020: STAT 100 Online
   </h1>
@@ -210,7 +210,7 @@ Color Key: Red-Required Work, Blue-Optional Work
     <td><p class="hw">HW Assignment 13 Due</p></td>
     <td><p class="prel">Chapter 15 Prelecture Due</p></td>
     <td><p class="hw">HW Assignment 14 Due</p></td>
-    <td><p class="prel">Chapter 16 Prelecture Due</p><p class="surv">Bonus Survey 4 Due</p></td>
+    <td><p class="prel">Chapter 16 Prelecture Due</p></td>
   </tr>
   </table>
   
@@ -236,10 +236,10 @@ Color Key: Red-Required Work, Blue-Optional Work
   <tr>
     <td><b>Week 11: Chapters 15-16</b>(Box Models &amp; Probability Histograms)</td>
     <td></td>
-    <td><p class="hw">HW Assignment 15 Due</p><p>Election Day</p></td>
-    <td><p class="prel">Chapter 17 Prelecture Due</p></td>
-    <td><p class="hw">HW Assignment 16 Due</p></td>
-    <td><p class="prel">Chapter 18 Prelecture Due</p></td>
+    <td><p>Election Day</p></td>
+    <td><p class="hw">HW Assignment 15 Due</p><p class="prel">Chapter 17 Prelecture Due</p></td>
+    <td></td>
+    <td><p class="hw">HW Assignment 16 Due</p><p class="prel">Chapter 18 Prelecture Due</p><p class="surv">Bonus Survey 4 Due</p></td>
   </tr>
   <tr>
     <td style="line-height:1px;margin:0;"></td>
@@ -331,7 +331,7 @@ Color Key: Red-Required Work, Blue-Optional Work
     <td></td>
     <td><p class="hw">HW Assignment 21 Due</p><p class="prel">Chapter 23 Part 2 Prelecture Due</p></td>
     <td><p>Last Day of Classes!</p></td>
-    <td><p class="hw">HW Assignment 22 Due</p><p class="surv">Bonus Survey 5 Due (11:59pm)</p><p><b>Reading Day</b><br />No Class <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">&#128522;</a></p></td>
+    <td><p class="hw">HW Assignment 22 Due</p><p class="surv">Bonus Survey 5 Due (11:59pm)</p><p><b>Reading Day</b><br />No Class &#128522;</p></td>
     <td></td>
   </tr>
   <tr>
