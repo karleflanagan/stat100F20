@@ -398,7 +398,7 @@ iframe {
 @media (max-width: 767px) {
   /* Home Page Styling */
   .caption {
-    top:10%;
+    top:20%;
   }
   .caption h1 {
     font-size: 30px;
