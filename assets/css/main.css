@@ -74,7 +74,7 @@ body {
   width: 100%;
   max-width: 100%;
   position:absolute;
-  top:25%;
+  top:20%;
   z-index: 1;
   color: white;
   text-transform: uppercase;
@@ -398,7 +398,7 @@ iframe {
 @media (max-width: 767px) {
   /* Home Page Styling */
   .caption {
-    top:25%;
+    top:15%;
   }
   .caption h1 {
     font-size: 30px;
@@ -408,6 +408,12 @@ iframe {
   .caption h3 {
     font-size: 23px;
     padding-bottom: 20px;
+  }
+  .announcements h2 {
+    font-size: 1.5vw;
+  }
+  .announcements p {
+    font-size: 1vw;
   }
   .btn-lg {
     padding: 10px 15px;;
