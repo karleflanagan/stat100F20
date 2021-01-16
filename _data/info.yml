@@ -3,20 +3,11 @@
 
 # Weekly Announcements
 announcements: >-
-  <h2>Weekly Announcements</h2>
+  <h2>Go to our new Spring 2021 site!</h2>
   <div class="sub-heading-underline" style="margin:0 auto 5px auto; width: 24%;"></div>
   <p style="text-align:left;">
   <ul>
-    <li>Congrats on making it to the end of Stat 100!</li>
-    <ul>
-      <li>Our Stat 100 final is Monday Dec. 14th from 1:30-4:30pm on Compass 2g. It covers Chapters 1-24 in the notebook and practice finals are available <a href="https://karleflanagan.github.io/stat100F20/pages/practice_exams.html">here</a>- these are the best way to study!</li>
-      <li>We will have a live review on Twitch on Friday (12/11) evening from 5-7pm.  The video will be posted to Compass shortly after that.</li>
-      <li>Check out our <a href="https://karleflanagan.github.io/stat100F20/pages/grade_calc.html">grade calculator</a> to see what you need to get on the final to get your desired grade in the class.</li>
-      <li>All remaining HW and Bonus Work is due Reading Day (12/10) at 11:59pm on Lon Capa!</li>
-      <li>Remember, this semester, I am dropping your FOUR lowest HW Assignments! So you can miss 4 assignments without any penalty :)</li>
-      <li>If you have any questions, email Karle at <a href="mailto:stat100@illinois.edu">stat100@illinois.edu</a> or stop by <a href="https://illinois.zoom.us/j/93223625206?pwd=MHhPbTNvelV6ZG1YVUJMVVFHdTU2UT09" target="_blank">Zoom Office Hours</a> this week</li>
-      <li>We have office hours Mon, Tues, and Wed from 2-5pm and 8-10pm.  We also have office hours Thurs and Fri from 2-5pm.  No office hours during finals week (12/14-12/18).</li>
-    </ul>
+    <li><a href="https://karleflanagan.github.io/stat100S21/" traget="_blank">Stat 100 Spring 2021</a></li>
   </ul>
   </p>
 
@@ -72,7 +63,7 @@ exams:
   time: "6-7:30pm"
   content: "Chapter 1-Chapter 6 Part 1"
   locations: ""
-  show-exams: T
+  show-exams: FF
   # exam-years:
   first: "F19" # Most recent semester
   full1: "Fall 2019"
@@ -94,7 +85,7 @@ exams:
   time: "6-7:30pm"
   content: "Chapter 6-Chapter 12"
   locations: ""
-  show-exams: T
+  show-exams: FF
   # exam-years:
   first: "F19" # Most recent semester
   full1: "Fall 2019"
@@ -116,7 +107,7 @@ exams:
   time: "6-7:30pm"
   content: "Chapters 13-19"
   locations: ""
-  show-exams: T
+  show-exams: FF
   # exam-years:
   first: "S19" # Most recent semester
   full1: "Spring 2019"
@@ -128,7 +119,7 @@ exams:
   full4: "Fall 2019"
   conflict: "<i>same day from 4:30-6:00pm</i><br>Location for All Last Names and Sections: TBA<br>"
 
-show-finals: T
+show-finals: FF
 
 # # This is for code that builds the practice exams tables.
 # exam-years:
